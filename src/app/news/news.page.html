@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>NEWS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngFor="let article of data?.articles" (click)="goDetailView(article)">
+    <ion-img [src]="article?.urlToImage"></ion-img>
+    <ion-card-content>
+      <ion-card-subtitle>{{article.title}}</ion-card-subtitle>
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>

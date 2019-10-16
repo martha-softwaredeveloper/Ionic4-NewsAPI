@@ -2,7 +2,7 @@
 
 I updated the app developed by Baljeet Singh: [Creating News Application With Ionic 4 and Angular](https://youtu.be/NJ9C7iY9350)
 
-<img src="" />
+<img src="https://github.com/martha-softwaredeveloper/Ionic4-newsAPI/blob/master/src/assets/Screen%20Shot.png" width="500" />
 
 ## SET UP
 
